@@ -1,0 +1,83 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f4d04e;
+    display: grid;
+    place-items: center;
+    font-family: "Figtree", sans-serif;
+}
+
+main {
+    width: 350px;
+    height: 450px;
+    background-color: #fff;
+    box-shadow: 5px 5px 0 0 black;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 18px;
+    font-size: 16px;
+    position: relative;
+}
+
+.main-img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    line-height: 25px;
+}
+
+.sp-learning {
+    background-color: #f4d04e;
+    border-radius: 2px;
+    padding: 5px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.title {
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 15px;
+}
+
+.george {
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+.sp-publish {
+    text-transform: capitalize;
+    margin: 8px 0;
+    display: block;
+}
+
+.par {
+    font-weight: 400;
+    /* font-size: 15px; */
+    line-height: 19px;
+    word-spacing: 1px;
+    color: #6b6b6b;
+    margin: 10px 0;
+}
+
+.par::first-letter {
+    text-transform: capitalize;
+}
